@@ -6,13 +6,13 @@
 /*   By: amaghafr <amaghafr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/08 13:04:12 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/09 10:24:53 by amaghafr         ###   ########.fr       */
+/*   Updated: 2025/11/10 19:40:32 by amaghafr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "printf.h"
 
-int ft_putchar(char c)
+int	ft_putchar(char c)
 {
-    return (write(1, &c, 1));
+	return (write(1, &c, 1));
 }
