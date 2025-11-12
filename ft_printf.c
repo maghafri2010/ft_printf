@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amaghafr <amaghafr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabdo <mabdo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 11:53:22 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/10 12:05:18 by amaghafr         ###   ########.fr       */
+/*   Updated: 2025/11/12 00:51:45 by mabdo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 static	int	identifing_the_arg(va_list args, char c )
 {

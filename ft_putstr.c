@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amaghafr <amaghafr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabdo <mabdo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/08 13:05:38 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/10 19:47:08 by amaghafr         ###   ########.fr       */
+/*   Updated: 2025/11/12 00:51:15 by mabdo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_putstr(char *str)
 {

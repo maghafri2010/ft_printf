@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_puthex_upper.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amaghafr <amaghafr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabdo <mabdo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 19:42:29 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/10 19:43:44 by amaghafr         ###   ########.fr       */
+/*   Updated: 2025/11/12 00:52:44 by mabdo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
-int	ft_puthex_upper(size_t nbr)
+int	ft_puthex_upper(unsigned int nbr)
 {
 	char	*base;
 	int		count;

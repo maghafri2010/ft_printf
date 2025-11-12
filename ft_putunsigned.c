@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putunsigned.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amaghafr <amaghafr@student.42.fr>          +#+  +:+       +#+        */
+/*   By: mabdo <mabdo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 19:46:02 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/10 19:46:35 by amaghafr         ###   ########.fr       */
+/*   Updated: 2025/11/12 00:51:19 by mabdo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
 int	ft_putunsigned(unsigned int nbr)
 {
