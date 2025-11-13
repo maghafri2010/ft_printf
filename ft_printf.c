@@ -6,13 +6,13 @@
 /*   By: mabdo <mabdo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/10 11:53:22 by amaghafr          #+#    #+#             */
-/*   Updated: 2025/11/12 00:51:45 by mabdo            ###   ########.fr       */
+/*   Updated: 2025/11/13 15:24:41 by mabdo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static	int	identifing_the_arg(va_list args, char c )
+static	int	check_arg(va_list args, char c )
 {
 	int	count;
 
@@ -42,6 +42,8 @@ int	ft_printf(const char *format, ...)
 	int		i;
 	int		count;
 
+	if (!format || write(0, " ", 1) < 0)
+		return (-1);
 	va_start(args, format);
 	count = 0;
 	i = 0;
@@ -50,7 +52,7 @@ int	ft_printf(const char *format, ...)
 		if (format[i] == '%' && format[i + 1])
 		{
 			i++;
-			count += identifing_the_arg(args, format[i]);
+			count += check_arg(args, format[i]);
 		}
 		else
 			count += ft_putchar(format[i]);
